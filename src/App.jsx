@@ -8,12 +8,13 @@ function App() {
   const { user } = useSelector(state => state.UserReducer);
 
   const searchUser = () => {
-    dispatch(getUserById())
+    dispatch(getUserById());
   }
 
   return (
     <React.Fragment>
       <h2>{user.name}</h2>
+      <h6>{user.username}</h6>
       <h6>{user.email}</h6>
       <button onClick={searchUser}>Extraer usuario</button>
     </React.Fragment>
