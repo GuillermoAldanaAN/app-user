@@ -6,5 +6,5 @@ Pasos para clonar:
 ```
 git clone https://github.com/GuillermoAldanaAN/app-user.git
 npm install
-
+npm run dev
 ```
